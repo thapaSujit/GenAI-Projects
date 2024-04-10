@@ -4,3 +4,4 @@ pinecone-client
 flask
 pypdf
 python-dotenv
+langchain==0.0.225
