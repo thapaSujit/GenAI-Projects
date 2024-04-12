@@ -160,3 +160,5 @@ cython_debug/
 #.idea/
 
 model/llama-2-7b-chat.ggmlv3.q2_K.bin
+data/Azal2020-01-22-12-28-11-76901 book.pdf
+experiment/data/Azal2020-01-22-12-28-11-76901 book.pdf
