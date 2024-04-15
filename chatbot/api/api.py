@@ -2,9 +2,7 @@ from fastapi import FastAPI
 from langchain.prompts import ChatPromptTemplate
 from langserve import add_routes
 import uvicorn
-import os
 from langchain_community.llms import Ollama
-from dotenv import load_dotenv
 
 app=FastAPI(
     title="Langchain Server",
@@ -28,4 +26,4 @@ add_routes(
 
 
 if __name__=="__main__":
-    uvicorn.run(app,host="localhost",port=8000)
+    uvicorn.run(app,host="localhost",port=8002)

@@ -4,7 +4,7 @@ import streamlit as st
 
 def get_ollama_response(input_text):
     response=requests.post(
-    "http://localhost:8000/poem/invoke",
+    "http://localhost:8002/poem/invoke",
     json={'input':{'topic':input_text}})
 
     return response.json()['output']
