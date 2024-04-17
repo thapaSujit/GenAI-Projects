@@ -6,7 +6,6 @@ python-dotenv
 langchain_community
 langchainhub
 langserve
-fastapi
 uvicorn
 sse_starlette
 faiss-cpu
