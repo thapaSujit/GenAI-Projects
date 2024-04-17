@@ -1,5 +1,7 @@
 # Personal Data Engineer
 Personal Data Engineer is a chat application powered by Langchain, Faiss DB, Flask, and OpenAI LLM for answering questions related to data engineering. It utilizes a combination of natural language processing and deep learning techniques to provide accurate and timely responses to user inquiries.
+![Alt Text](UI.png)
+
 
 # Features
 1. Interactive chat interface for asking questions about data engineering.
@@ -44,19 +46,6 @@ The project has the following main file structure:
     - `utils.py`: This file contains functions for loading PDFs, splitting documents, and creating a FAISS vector database.
 - `requirements.txt`: This file lists the required Python libraries and their versions for project dependencies.
 - `setup.py`: This file is used for packaging the project and can be used with tools like pip for distribution.
-
-/personal-data-engineer
-├── app.py
-├── data/
-│   └── source_data.pdf
-├── requirements.txt
-├── setup.py
-├── src/
-│   └── utils.py
-├── static/
-│   └── style.css
-└── templates/
-    └── index.html
 
 
 # Author(s):
