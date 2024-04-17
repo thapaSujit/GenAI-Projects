@@ -4,6 +4,7 @@ langchain_openai
 langchain_core
 python-dotenv
 langchain_community
+langchainhub
 langserve
 fastapi
 uvicorn
