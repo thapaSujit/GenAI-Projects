@@ -2,6 +2,8 @@
 Personal Data Engineer is a chat application powered by Langchain, Faiss DB, Flask, and OpenAI LLM for answering questions related to data engineering. It utilizes a combination of natural language processing and deep learning techniques to provide accurate and timely responses to user inquiries.
 ![UI](UI.png)
 
+# Architecture
+
 
 # Features
 1. Interactive chat interface for asking questions about data engineering.
