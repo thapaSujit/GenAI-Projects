@@ -44,4 +44,20 @@ The project has the following main file structure:
     - `utils.py`: This file contains functions for loading PDFs, splitting documents, and creating a FAISS vector database.
 - `requirements.txt`: This file lists the required Python libraries and their versions for project dependencies.
 - `setup.py`: This file is used for packaging the project and can be used with tools like pip for distribution.
-src Folder and utils.py:
+
+/personal-data-engineer
+├── app.py
+├── data/
+│   └── source_data.pdf
+├── requirements.txt
+├── setup.py
+├── src/
+│   └── utils.py
+├── static/
+│   └── style.css
+└── templates/
+    └── index.html
+
+
+# Author(s):
+- Sujit Thapa
