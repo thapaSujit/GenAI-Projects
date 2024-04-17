@@ -1,7 +1,7 @@
 import os
 from dotenv import load_dotenv
 from src.utils import load_pdf, split_documents, create_faiss_vector_db
-from src.promptsTemplate import *
+#from src.promptsTemplate import prompt_template
 from flask import Flask, render_template, jsonify, request
 from langchain.chat_models import ChatOpenAI
 from langchain.chains import RetrievalQA
