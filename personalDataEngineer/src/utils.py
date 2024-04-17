@@ -17,10 +17,8 @@ def load_pdf(file_path):
     return loader.load()
 
 # Example usage:
-#pdf_file_path = 'attention.pdf'
-#documents = load_pdf(pdf_file_path)
+#documents = load_pdf("data/")
 
-from langchain.text_splitter import RecursiveCharacterTextSplitter
 
 def split_documents(inputFile):
     """
@@ -36,10 +34,10 @@ def split_documents(inputFile):
     return text_splitter.split_documents(inputFile)
 
 # Example usage:
-#split_documents_result = split_documents(inputFiles)
+#split_documents_result = split_documents(documents)
 
 
-def create_faiss_vector_db(documents):
+def create_faiss_vector_db(documen):
     """
     Create a FAISS vector database from documents using OpenAI embeddings.
 
@@ -50,8 +48,8 @@ def create_faiss_vector_db(documents):
         FAISS: FAISS vector database.
     """
     embeddings = OpenAIEmbeddings()
-    return FAISS.from_documents(documents, embeddings)
+    return FAISS.from_documents(documen, embeddings)
 
 # Example usage:
-#faiss_vector_db = create_faiss_vector_db(documents)
+#faiss_vector_db = create_faiss_vector_db(split_documents_result)
 
