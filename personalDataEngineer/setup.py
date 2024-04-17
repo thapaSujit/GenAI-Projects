@@ -1,7 +1,7 @@
 from setuptools import find_packages, setup
 
 setup(
-    name = 'personalDataEngineer',
+    name = 'personalDE',
     version= '0.0.0',
     author= 'Sujit Thapa',
     author_email= 'megasuziet@gmail.com',
